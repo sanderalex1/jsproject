@@ -48,7 +48,6 @@ const playSound = (sound) => {
 document.addEventListener("keydown", (e) => {
   const key = e.key;
   const sound = soundMap[key];
-  ewr;
   if (sound) {
     playSound(sound);
   }
