@@ -9,7 +9,7 @@ const soundMap = {
   q: "work_it",
   w: "make_it",
   e: "do_it",
-  r: "make us",
+  r: "makes_us",
   t: "harder",
   y: "better",
   u: "faster",
@@ -48,6 +48,7 @@ const playSound = (sound) => {
 document.addEventListener("keydown", (e) => {
   const key = e.key;
   const sound = soundMap[key];
+  ewr;
   if (sound) {
     playSound(sound);
   }
